@@ -1,7 +1,7 @@
 import Board from "./components/Board";
 import { createBoard } from "./model/board";
 import Settings from "./components/Settings";
-import React, { useEffect, useState, createRef } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 
 const SIZE = 4;

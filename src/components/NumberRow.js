@@ -1,11 +1,11 @@
 import React from "react";
 
-import Square from "./Square";
+import NumberSquare from "./NumberSquare";
 import Inequality from "./Inequality";
 
-export default function Row({ row }) {
+export default function NumberRow({ row }) {
   const elems = row.map((number, idx) => {
-    const sq = <Square number={number} visible={number !== 2} />;
+    const sq = <NumberSquare number={number} visible={true} />;
     if (idx !== row.length - 1) {
       return (
         <>
