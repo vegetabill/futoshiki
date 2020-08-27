@@ -1,0 +1,29 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 500px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 1em 0;
+}
+
+.square {
+  font-size: x-large;
+  border: 3px solid black;
+  padding: 0.25em 1em;
+  align-self: center;
+}
+
+.number--hidden {
+  visibility: hidden;
+}
+
+.inequality {
+  align-self: center;
+  font-size: xx-large;
+}
